@@ -1,4 +1,4 @@
-/* Employee Table 
+/* EMPLOYEE TABLE
 
 
 
@@ -19,7 +19,7 @@
 
 */
 
-/* Dependents Table 
+/* DEPENDENTS TABLES
 
 
 
@@ -39,7 +39,7 @@
 
 */
 
-/* Payments Table 
+/* PAYMENTS TABLE
 
 
 
