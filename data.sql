@@ -1,4 +1,4 @@
-/* EMPLOYEE ATTRIBUTE 
+-- EMPLOYEE ATTRIBUTES
 
 
 
@@ -17,9 +17,9 @@
 
 
 
-*/
+--
 
-/* DEPENDENTS ATTRIBUTE
+-- DEPENDENTS ATTRIBUTES
 
 
 
@@ -37,9 +37,9 @@
 
 
 
-*/
+--
 
-/* PAYMENTS TABLE
+-- PAYMENTS ATTRIBUTES
 
 
 
@@ -59,9 +59,9 @@
 
 
 
-*/
+--
 
-/*BILLING ATTRIBUTE
+--BILLING ATTRIBUTES
 
 
 
@@ -80,9 +80,9 @@
 
 
 
-*/
+--
 
-/* COLLECTIONS ATTRIBUTE
+-- COLLECTIONS ATTRIBUTES
 
 
 
@@ -101,9 +101,10 @@
 
 
 
- */
+ --
 
- /* CUSTOMER ATTRIBUTE
+ -- CUSTOMER ATTRIBUTES
+ 
 
 
 
@@ -118,9 +119,12 @@
 
 
 
- */
 
- /* STATEMENT OF ACCOUNT ATTRIBUTE
+
+
+ --
+
+ -- STATEMENT OF ACCOUNT ATTRIBUTES
  
  
  
@@ -142,9 +146,9 @@
  
  
  
-*/
+--
 
- /* SUBSCRITION ATTRIBUTE
+ -- SUBSCRITION ATTRIBUTES
  
  
  
@@ -158,9 +162,9 @@
  
  
  
- */
+ --
 
- /* SERVICE ATTRIBUTE
+ -- SERVICE ATTRIBUTES
  
  
  
@@ -180,7 +184,7 @@
  
  
  
- */
+ --
  
  
  
@@ -196,3 +200,6 @@
  
  
   
+
+
+
