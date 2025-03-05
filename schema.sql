@@ -1,5 +1,4 @@
 -- EMPLOYEE TABLES
-table create
 
 
 
