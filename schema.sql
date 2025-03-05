@@ -1,4 +1,4 @@
-/* EMPLOYEE TABLE
+-- EMPLOYEE TABLES
 
 
 
@@ -17,9 +17,9 @@
 
 
 
-*/
+--
 
-/* DEPENDENTS TABLES
+-- DEPENDENTS TABLES
 
 
 
@@ -37,9 +37,9 @@
 
 
 
-*/
+--
 
-/* PAYMENTS TABLE
+-- PAYMENTS TABLE
 
 
 
@@ -59,9 +59,9 @@
 
 
 
-*/
+--
 
-/*BILLING TABLE
+--BILLING TABLE
 
 
 
@@ -80,9 +80,9 @@
 
 
 
-*/
+--
 
-/* COLLECTIONS TABLE
+-- COLLECTIONS TABLE
 
 
 
@@ -101,9 +101,9 @@
 
 
 
- */
+ --
 
- /* CUSTOMER TABLE
+ -- CUSTOMER TABLE
 
 
 
@@ -118,9 +118,13 @@
 
 
 
- */
 
- /* STATEMENT OF ACCOUNT TABLE
+
+
+
+ --
+
+ -- STATEMENT OF ACCOUNT TABLE
  
  
  
@@ -142,9 +146,9 @@
  
  
  
-*/
+--
 
- /* SUBSCRITION TABLE 
+ -- SUBSCRITION TABLE 
  
  
  
@@ -158,9 +162,9 @@
  
  
  
- */
+ --
 
- /* SERVICE TABLE 
+ -- SERVICE TABLE 
  
  
  
@@ -180,7 +184,7 @@
  
  
  
- */
+ --
  
  
  
