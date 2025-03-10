@@ -33,63 +33,41 @@ SELECT * FROM DEPENDENTS
 
 -- PAYMENTS TABLE
 
+CREATE TABLE PAYMENTS ( 
+    Payment_ID INT PRIMARY KEY,  
+    CUSTOMER_ID INT,  
+    Payment_Status VARCHAR2(50), 
+    Payment_Amount VARCHAR2(50), 
+    Payment_Channel VARCHAR2(50), 
+    FOREIGN KEY (CUSTOMER_ID) REFERENCES CUSTOMER(CUSTOMER_ID) 
+);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+SELECT * FROM PAYMENTS
 
 --
 
 --BILLING TABLE
 
+CREATE TABLE BILLING ( 
+    EMP_ID INT PRIMARY KEY, 
+    Billing_Status VARCHAR2(50) CHECK (Billing_Status IN ('Active', 'Inactive')), 
+    FOREIGN KEY (EMP_ID) REFERENCES EMPLOYEE(EMP_ID) 
+);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+SELECT * FROM BILLING
 
 
 --
 
 -- COLLECTIONS TABLE
 
+CREATE TABLE COLLECTIONS ( 
+    EMP_ID INT PRIMARY KEY, 
+    Collection_Status VARCHAR2(50), 
+    FOREIGN KEY (CUSTOMER_ID) REFERENCES CUSTOMER(CUSTOMER_ID) 
+);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+SELECT * FROM COLLECTIONS
 
 
 
