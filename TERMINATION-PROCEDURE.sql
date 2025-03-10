@@ -1,7 +1,7 @@
-CREATE PROCEDURE EMPLOYEE_TERMINATION (  
-    p_emp_id IN INT) AS  
+CREATE PROCEDURE EMPLOYEE-TERMINATION (  
+    p_emp_id IN VARCHAR) AS  
 BEGIN  
-    -- Delete from tables that reference Employee data  
+    
     DELETE FROM EmployeeTask WHERE EMP_ID = p_emp_id;  
     DELETE FROM Dependents WHERE EMP_ID = p_emp_id;  
     DELETE FROM BillingUnit WHERE EMP_ID = p_emp_id;  
