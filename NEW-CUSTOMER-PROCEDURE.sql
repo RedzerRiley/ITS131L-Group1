@@ -1,32 +1,29 @@
 CREATE PROCEDURE ADD_NEW_CUSTOMER( 
     p_CUSTOMER_ID IN INT, 
-    p_CUSTOMER_Type IN VARCHAR2, 
-    p_CUSTOMER_Status IN VARCHAR2, 
-    p_CUSTOMER_Contact IN VARCHAR2, 
-    p_CUSTOMER_Address IN VARCHAR2, 
-    p_CUSTOMER_Email IN VARCHAR2 
+    p_CUSTOMER_STATUS IN VARCHAR2, 
+    p_CUSTOMER_CONTACT IN VARCHAR2, 
+    p_CUSTOMER_ADDRESS IN VARCHAR2, 
+    p_CUSTOMER_EMAIL IN VARCHAR2 
 ) AS 
 BEGIN 
-    INSERT INTO CLIENT ( 
-        Client_ID,       
-        Client_Type, 
-        Client_Status, 
-        Client_Contact, 
-        Client_Address, 
-        Client_Email 
+    INSERT INTO CUSTOMER ( 
+        CUSTOMER_ID,       
+        CUSTOMER_STATUS,
+        CUSTOMER_CONTACT,
+        CUSTOMER_EMAIL,
+        CUSTOMER_ADDRESS
     ) 
     VALUES ( 
-        p_Client_ID, 
-        p_Client_Type, 
-        p_Client_Status, 
-        p_Client_Contact, 
-        p_Client_Address, 
-        p_Client_Email 
+    p_CUSTOMER_ID, 
+    p_CUSTOMER_STATUS, 
+    p_CUSTOMER_CONTACT, 
+    p_CUSTOMER_ADDRESS, 
+    p_CUSTOMER_EMAIL 
     ); 
  
     COMMIT; 
  
-    DBMS_OUTPUT.PUT_LINE('New client has been added successfully.'); 
+    DBMS_OUTPUT.PUT_LINE('New customer has been added successfully.'); 
 END; 
 
 /
