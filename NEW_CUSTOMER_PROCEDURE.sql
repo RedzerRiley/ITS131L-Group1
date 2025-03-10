@@ -1,10 +1,10 @@
-CREATE PROCEDURE ADD_NEW_CLIENT( 
-    p_Client_ID IN INT, 
-    p_Client_Type IN VARCHAR2, 
-    p_Client_Status IN VARCHAR2, 
-    p_Client_Contact IN VARCHAR2, 
-    p_Client_Address IN VARCHAR2, 
-    p_Client_Email IN VARCHAR2 
+CREATE PROCEDURE ADD_NEW_CUSTOMER( 
+    p_CUSTOMER_ID IN INT, 
+    p_CUSTOMER_Type IN VARCHAR2, 
+    p_CUSTOMER_Status IN VARCHAR2, 
+    p_CUSTOMER_Contact IN VARCHAR2, 
+    p_CUSTOMER_Address IN VARCHAR2, 
+    p_CUSTOMER_Email IN VARCHAR2 
 ) AS 
 BEGIN 
     INSERT INTO CLIENT ( 
