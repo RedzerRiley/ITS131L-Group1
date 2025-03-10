@@ -1,5 +1,5 @@
 
-CREATE VIEW Client_Subscription AS  
+CREATE VIEW CUSTOMER_SERVICES AS  
 SELECT   
     CLIENT.Client_ID,  
     SUBSCRIPTION.Subs_Status AS Subscription_Status,  
