@@ -77,28 +77,34 @@ INSERT INTO PAYMENTS VALUES (6, '', '2025-02-26', 'Credit Card', 'Paid', 1899.00
 INSERT INTO PAYMENTS VALUES (18, '', '2025-02-28', 'Cash', 'Paid', 1699.00);
 --
 
---BILLING ATTRIBUTES
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--BILLING ATTRIBUTES B
+INSERT INTO BILLING VALUES (1,'C1','Paid');
+INSERT INTO BILLING VALUES (2, 'C2', 'Unpaid');
+INSERT INTO BILLING VALUES (3, 'C3', 'Pending');
+INSERT INTO BILLING VALUES (4, 'C4', 'Overdue');
+INSERT INTO BILLING VALUES (5, 'C5', 'Paid');
+INSERT INTO BILLING VALUES (6, 'C6', 'Cancelled');
+INSERT INTO BILLING VALUES (7, 'C7', 'Unpaid');
+INSERT INTO BILLING VALUES (8, 'C8', 'Overdue');
+INSERT INTO BILLING VALUES (9, 'C9', 'Pending');
+INSERT INTO BILLING VALUES (10, 'C10', 'Paid');
 
 
 
 
 --
 
--- COLLECTIONS ATTRIBUTES
+-- COLLECTIONS ATTRIBUTES B
+INSERT INTO COLLECTION VALUES (1, 'C1', 'Collected' );
+INSERT INTO COLLECTION VALUES (2, 'C2', 'Not Collected');
+INSERT INTO COLLECTION VALUES (3, 'C3', 'Partially Collected');
+INSERT INTO COLLECTION VALUES (4, 'C4', 'Not Collected');
+INSERT INTO COLLECTION VALUES (5, 'C5', 'Collected');
+INSERT INTO COLLECTION VALUES (6, 'C6', 'Not Collected');
+INSERT INTO COLLECTION VALUES (7, 'C7', 'In Progress');
+INSERT INTO COLLECTION VALUES (8, 'C8', 'Partially Collected');
+INSERT INTO COLLECTION VALUES (9, 'C9', 'Collected');
+INSERT INTO COLLECTION VALUES (10, 'C10', 'Collected');
 
 
 
@@ -119,16 +125,17 @@ INSERT INTO PAYMENTS VALUES (18, '', '2025-02-28', 'Cash', 'Paid', 1699.00);
 
  --
 
- -- CUSTOMER ATTRIBUTES
- 
-
-
-
-
-
-
-
-
+ -- CUSTOMER ATTRIBUTES B
+INSERT INTO CUSTOMER VALUES ('C1','Active',09458821940,'DJuan@gmail.com','Marilao,Bulacan');
+INSERT INTO CUSTOMER VALUES ('C2', 'Inactive', 09234567890, 'pedro_santos2@gmail.com', 'Cebu City, Cebu');
+INSERT INTO CUSTOMER VALUES ('C3', 'Active', 09345678901, 'maria_rodriguez3@hotmail.com', 'Davao City, Davao del Sur');
+INSERT INTO CUSTOMER VALUES ('C4', 'Inactive', 09456789012, 'carlos_mendoza4@outlook.com', 'Baguio City, Benguet');
+INSERT INTO CUSTOMER VALUES ('C5', 'Active', 09567890123, 'ana_garcia5@gmail.com', 'Iloilo City, Iloilo');
+INSERT INTO CUSTOMER VALUES ('C6', 'Active', 09678901234, 'ricardo_torres6@yahoo.com', 'Cagayan de Oro, Misamis Oriental');
+INSERT INTO CUSTOMER VALUES ('C7', 'Inactive', 09789012345, 'sofia_fernandez7@hotmail.com', 'Legazpi City, Albay');
+INSERT INTO CUSTOMER VALUES ('C8', 'Inactive', 09890123456, 'manuel_reyes8@gmail.com', 'General Santos City, South Cotabato');
+INSERT INTO CUSTOMER VALUES ('C9', 'Active', 09901234567, 'beatriz_ramos9@outlook.com', 'Tagbilaran City, Bohol');
+INSERT INTO CUSTOMER VALUES ('C10', 'Active', 09102345678, 'antonio_cruz10@yahoo.com', 'Zamboanga City, Zamboanga del Sur');
 
 
 
