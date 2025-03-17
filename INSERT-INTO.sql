@@ -105,24 +105,6 @@ INSERT INTO COLLECTION VALUES (7, 'C7', 'In Progress');
 INSERT INTO COLLECTION VALUES (8, 'C8', 'Partially Collected');
 INSERT INTO COLLECTION VALUES (9, 'C9', 'Collected');
 INSERT INTO COLLECTION VALUES (10, 'C10', 'Collected');
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  --
 
  -- CUSTOMER ATTRIBUTES B
@@ -136,15 +118,6 @@ INSERT INTO CUSTOMER VALUES ('C7', 'Inactive', 09789012345, 'sofia_fernandez7@ho
 INSERT INTO CUSTOMER VALUES ('C8', 'Inactive', 09890123456, 'manuel_reyes8@gmail.com', 'General Santos City, South Cotabato');
 INSERT INTO CUSTOMER VALUES ('C9', 'Active', 09901234567, 'beatriz_ramos9@outlook.com', 'Tagbilaran City, Bohol');
 INSERT INTO CUSTOMER VALUES ('C10', 'Active', 09102345678, 'antonio_cruz10@yahoo.com', 'Zamboanga City, Zamboanga del Sur');
-
-
-
-
-
-
-
-
-
  --
 
  -- STATEMENT OF ACCOUNT ATTRIBUTES
@@ -167,9 +140,8 @@ INSERT INTO CUSTOMER VALUES ('C10', 'Active', 09102345678, 'antonio_cruz10@yahoo
  
  
  
- 
- 
---
+
+---
 
  -- SUBSCRITION ATTRIBUTES
  
