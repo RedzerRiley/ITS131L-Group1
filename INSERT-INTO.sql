@@ -125,6 +125,16 @@ SELECT * FROM CUSTOMER;
  --
 
  -- STATEMENT OF ACCOUNT ATTRIBUTES
+ hhhhhhhhg 
+INSERT INTO statement_of_account (
+    soa_id, customer_id, billing_id, total_amount, amount_paid, billing_date, due_date, status, payment_method, last_payment_date, remarks
+) VALUES
+(1, 'CUST001', 101, 5000.00, 2000.00, '2025-03-01', '2025-03-15', 'Unpaid', 'Credit Card', '2025-03-05', 'Partial payment made.'),
+(2, 'CUST002', 102, 7500.00, 7500.00, '2025-03-02', '2025-03-16', 'Paid', 'Bank Transfer', '2025-03-10', 'Fully paid.'),
+(3, 'CUST003', 103, 3000.00, 0.00, '2025-03-03', '2025-03-17', 'Overdue', 'Pending', NULL, 'Payment overdue.'),
+(4, 'CUST004', 104, 6200.00, 6200.00, '2025-03-04', '2025-03-18', 'Paid', 'Cash', '2025-03-14', 'Cleared balance.'),
+(5, 'CUST005', 105, 8900.00, 4000.00, '2025-03-05', '2025-03-19', 'Unpaid', 'Online Payment', '2025-03-15', 'Awaiting full payment.');
+
  
  
  
@@ -132,9 +142,7 @@ SELECT * FROM CUSTOMER;
  
  
  
- 
- 
- 
+
  
  
  
@@ -149,8 +157,16 @@ SELECT * FROM CUSTOMER;
 
  -- SUBSCRITION ATTRIBUTES
  
- 
- 
+
+INSERT INTO subscription (
+    subscription_id, customer_id, plan_id, start_date, end_date, status, payment_method, renewal_date, remarks
+) VALUES
+(1, 'CUST001', 'PLAN_A', '2025-03-01', '2025-09-01', 'Active', 'Credit Card', '2025-09-01', 'Auto-renew enabled.'),
+(2, 'CUST002', 'PLAN_B', '2025-02-15', '2025-08-15', 'Expired', 'Bank Transfer', NULL, 'Subscription not renewed.'),
+(3, 'CUST003', 'PLAN_C', '2025-04-01', '2025-10-01', 'Active', 'Online Payment', '2025-10-01', 'Upcoming renewal in October.'),
+(4, 'CUST004', 'PLAN_A', '2025-01-10', '2025-07-10', 'Cancelled', 'Cash', NULL, 'Cancelled before renewal date.'),
+(5, 'CUST005', 'PLAN_B', '2025-03-20', '2025-09-20', 'Active', 'Debit Card', '2025-09-20', 'Payment confirmed.');
+
  
  
  
@@ -164,7 +180,15 @@ SELECT * FROM CUSTOMER;
 
  -- SERVICE ATTRIBUTES
  
- 
+INSERT INTO service (
+    service_id, service_name, description, price, duration, status, category, created_at, updated_at
+) VALUES
+(1, 'Premium Support', '24/7 customer support with priority response.', 49.99, 30, 'Active', 'Support', '2025-01-01', '2025-03-01'),
+(2, 'Cloud Storage', '1TB secure cloud storage.', 9.99, 30, 'Active', 'Storage', '2025-02-15', '2025-03-10'),
+(3, 'Website Hosting', 'Reliable web hosting with 99.9% uptime.', 19.99, 30, 'Active', 'Hosting', '2025-02-01', '2025-02-25'),
+(4, 'SEO Optimization', 'Professional SEO services to boost rankings.', 79.99, 60, 'Inactive', 'Marketing', '2024-12-01', '2025-01-15'),
+(5, 'Email Marketing', 'Automated email campaigns and analytics.', 29.99, 30, 'Active', 'Marketing', '2025-03-01', '2025-03-12');
+
  
  
  
