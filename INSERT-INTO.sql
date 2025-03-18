@@ -125,7 +125,7 @@ SELECT * FROM CUSTOMER;
  --
 
  -- STATEMENT OF ACCOUNT ATTRIBUTES
- hhhhhhhhg 
+
 INSERT INTO statement_of_account (
     soa_id, customer_id, billing_id, total_amount, amount_paid, billing_date, due_date, status, payment_method, last_payment_date, remarks
 ) VALUES
