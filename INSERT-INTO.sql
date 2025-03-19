@@ -1,34 +1,34 @@
 -- EMPLOYEE ATTRIBUTES
-INSERT INTO EMPLOYEE VALUES (1, 'Juan', 'Dela Cruz', '10-01-2019', 'Manager', 'Billing', '9181234567', 'juan.delacruz@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (2, 'Maria', 'Santos', '15-02-2020', 'Supervisor', 'Collection', '9181234568', 'maria.santos@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (3, 'Carlos', 'Reyes', '20-03-2018', 'Manager', 'Payments', '9181234569', 'carlos.reyes@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (4, 'Ana', 'Torres', '12-04-2021', 'Staff', 'Billing', '9181234570', 'ana.torres@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (5, 'Mark', 'Gonzales', '25-05-2019', 'Staff', 'Collection', '9181234571', 'mark.gonzales@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (6, 'Angela', 'Mendoza', '10-06-2022', 'Supervisor', 'Payments', '9181234572', 'angela.mendoza@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (7, 'Jose', 'Garcia', '05-07-2017', 'Staff', 'Billing', '9181234573', 'jose.garcia@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (8, 'Sofia', 'Domingo', '20-08-2023', 'Staff', 'Collection', '9181234574', 'sofia.domingo@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (9, 'Luis', 'Aquino', '05-09-2019', 'Supervisor', 'Billing', '9181234575', 'luis.aquino@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (10, 'Emma', 'Bautista', '15-10-2020', 'Manager', 'Collection', '9181234576', 'emma.bautista@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (11, 'Aaron', 'Lim', '10-11-2021', 'Staff', 'Collection', '9181234577', 'aaron.lim@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (12, 'Isabel', 'Ramos', '20-12-2018', 'Staff', 'Payments', '9181234578', 'isabel.ramos@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (13, 'Pedro', 'Fernandez', '18-01-2022', 'Staff', 'Billing', '9181234579', 'pedro.fernandez@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (14, 'Linda', 'Cruz', '28-02-2019', 'Staff', 'Collection', '9181234580', 'linda.cruz@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (15, 'Marco', 'Castillo', '22-03-2023', 'Staff', 'Payments', '9181234581', 'marco.castillo@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (16, 'Raul', 'Gomez', '20-05-2021', 'Supervisor', 'Billing', '9181234582', 'raul.gomez@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (17, 'Lilian', 'Hernandez', '08-08-2019', 'Manager', 'Collection', '9181234583', 'lilian.hernandez@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (18, 'Antonio', 'Lopez', '25-11-2020', 'Supervisor', 'Payments', '9181234584', 'antonio.lopez@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (19, 'Carmen', 'Torres', '15-06-2017', 'Staff', 'Payments', '9181234585', 'carmen.torres@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (20, 'Pedro', 'Jimenez', '05-01-2019', 'Manager', 'Billing', '9181234586', 'pedro.jimenez@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (21, 'Esther', 'Guzman', '18-02-2022', 'Staff', 'Collection', '9181234587', 'esther.guzman@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (22, 'Victor', 'Perez', '22-09-2021', 'Supervisor', 'Payments', '9181234588', 'victor.perez@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (23, 'Gina', 'Castro', '28-07-2023', 'Staff', 'Billing', '9181234589', 'gina.castro@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (24, 'Rafael', 'Martinez', '15-03-2020', 'Manager', 'Payments', '9181234590', 'rafael.martinez@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (25, 'Olivia', 'Jimenez', '05-12-2018', 'Supervisor', 'Collection', '9181234591', 'olivia.jimenez@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (26, 'Juan', 'Garcia', '12-05-2023', 'Staff', 'Payments', '9181234592', 'juan.garcia@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (27, 'Sandra', 'Alvarez', '25-10-2021', 'Staff', 'Billing', '9181234593', 'sandra.alvarez@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (28, 'Gabriel', 'Vega', '18-12-2020', 'Manager', 'Billing', '9181234594', 'gabriel.vega@email.com', 'Inactive');
-INSERT INTO EMPLOYEE VALUES (29, 'Monica', 'Ruiz', '15-04-2019', 'Supervisor', 'Payments', '9181234595', 'monica.ruiz@email.com', 'Active');
-INSERT INTO EMPLOYEE VALUES (30, 'Carlos', 'Lopez', '22-07-2022', 'Staff', 'Collection', '9181234596', 'carlos.lopez@email.com', 'Inactive');
+INSERT INTO EMPLOYEE VALUES (1, 'Juan', 'Dela Cruz', TO_DATE('10-01-2019', 'DD-MM-YYYY'), 'Manager', 'Billing', '9181234567', 'juan.delacruz@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (2, 'Maria', 'Santos', TO_DATE('15-02-2020', 'DD-MM-YYYY'), 'Supervisor', 'Collection', '9181234568', 'maria.santos@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (3, 'Carlos', 'Reyes', TO_DATE('20-03-2018', 'DD-MM-YYYY'), 'Manager', 'Payments', '9181234569', 'carlos.reyes@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (4, 'Ana', 'Torres', TO_DATE('12-04-2021', 'DD-MM-YYYY'), 'Staff', 'Billing', '9181234570', 'ana.torres@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (5, 'Mark', 'Gonzales', TO_DATE('25-05-2019', 'DD-MM-YYYY'), 'Staff', 'Collection', '9181234571', 'mark.gonzales@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (6, 'Angela', 'Mendoza', TO_DATE('10-06-2022', 'DD-MM-YYYY'), 'Supervisor', 'Payments', '9181234572', 'angela.mendoza@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (7, 'Jose', 'Garcia', TO_DATE('05-07-2017', 'DD-MM-YYYY'), 'Staff', 'Billing', '9181234573', 'jose.garcia@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (8, 'Sofia', 'Domingo', TO_DATE('20-08-2023', 'DD-MM-YYYY'), 'Staff', 'Collection', '9181234574', 'sofia.domingo@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (9, 'Luis', 'Aquino', TO_DATE('05-09-2019', 'DD-MM-YYYY'), 'Supervisor', 'Billing', '9181234575', 'luis.aquino@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (10, 'Emma', 'Bautista', TO_DATE('15-10-2020', 'DD-MM-YYYY'), 'Manager', 'Collection', '9181234576', 'emma.bautista@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (11, 'Aaron', 'Lim', TO_DATE('10-11-2021', 'DD-MM-YYYY'), 'Staff', 'Collection', '9181234577', 'aaron.lim@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (12, 'Isabel', 'Ramos', TO_DATE('20-12-2018', 'DD-MM-YYYY'), 'Staff', 'Payments', '9181234578', 'isabel.ramos@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (13, 'Pedro', 'Fernandez', TO_DATE('18-01-2022', 'DD-MM-YYYY'), 'Staff', 'Billing', '9181234579', 'pedro.fernandez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (14, 'Linda', 'Cruz', TO_DATE('28-02-2019', 'DD-MM-YYYY'), 'Staff', 'Collection', '9181234580', 'linda.cruz@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (15, 'Marco', 'Castillo', TO_DATE('22-03-2023', 'DD-MM-YYYY'), 'Staff', 'Payments', '9181234581', 'marco.castillo@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (16, 'Raul', 'Gomez', TO_DATE('20-05-2021', 'DD-MM-YYYY'), 'Supervisor', 'Billing', '9181234582', 'raul.gomez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (17, 'Lilian', 'Hernandez', TO_DATE('08-08-2019', 'DD-MM-YYYY'), 'Manager', 'Collection', '9181234583', 'lilian.hernandez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (18, 'Antonio', 'Lopez', TO_DATE('25-11-2020', 'DD-MM-YYYY'), 'Supervisor', 'Payments', '9181234584', 'antonio.lopez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (19, 'Carmen', 'Torres', TO_DATE('15-06-2017', 'DD-MM-YYYY'), 'Staff', 'Payments', '9181234585', 'carmen.torres@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (20, 'Pedro', 'Jimenez', TO_DATE('05-01-2019', 'DD-MM-YYYY'), 'Manager', 'Billing', '9181234586', 'pedro.jimenez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (21, 'Esther', 'Guzman', TO_DATE('18-02-2022', 'DD-MM-YYYY'), 'Staff', 'Collection', '9181234587', 'esther.guzman@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (22, 'Victor', 'Perez', TO_DATE('22-09-2021', 'DD-MM-YYYY'), 'Supervisor', 'Payments', '9181234588', 'victor.perez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (23, 'Gina', 'Castro', TO_DATE('28-07-2023', 'DD-MM-YYYY'), 'Staff', 'Billing', '9181234589', 'gina.castro@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (24, 'Rafael', 'Martinez', TO_DATE('15-03-2020', 'DD-MM-YYYY'), 'Manager', 'Payments', '9181234590', 'rafael.martinez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (25, 'Olivia', 'Jimenez', TO_DATE('05-12-2018', 'DD-MM-YYYY'), 'Supervisor', 'Collection', '9181234591', 'olivia.jimenez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (26, 'Juan', 'Garcia', TO_DATE('12-05-2023', 'DD-MM-YYYY'), 'Staff', 'Payments', '9181234592', 'juan.garcia@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (27, 'Sandra', 'Alvarez', TO_DATE('25-10-2021', 'DD-MM-YYYY'), 'Staff', 'Billing', '9181234593', 'sandra.alvarez@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (28, 'Gabriel', 'Vega', TO_DATE('18-12-2020', 'DD-MM-YYYY'), 'Manager', 'Billing', '9181234594', 'gabriel.vega@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (29, 'Monica', 'Ruiz', TO_DATE('15-04-2019', 'DD-MM-YYYY'), 'Supervisor', 'Payments', '9181234595', 'monica.ruiz@email.com', 'Active');
+INSERT INTO EMPLOYEE VALUES (30, 'Carlos', 'Lopez', TO_DATE('22-07-2022', 'DD-MM-YYYY'), 'Staff', 'Collection', '9181234596', 'carlos.lopez@email.com', 'Active');
 --
 
 SELECT * FROM EMPLOYEE;
@@ -74,6 +74,10 @@ INSERT INTO PAYMENTS VALUES (18, 'C3', TO_DATE('10-02-2025', 'DD-MM-YYYY'), 'Cas
 INSERT INTO PAYMENTS VALUES (22, 'C5', TO_DATE('18-02-2025', 'DD-MM-YYYY'), 'Bank Transfer', 'Paid', 1899.00);
 INSERT INTO PAYMENTS VALUES (29, 'C7', TO_DATE('22-02-2025', 'DD-MM-YYYY'), 'Cash', 'Pending', 1599.00);
 INSERT INTO PAYMENTS VALUES (3, 'C9', TO_DATE('26-02-2025', 'DD-MM-YYYY'), 'Credit Card', 'Paid', 1899.00);
+INSERT INTO PAYMENTS VALUES (12, 'C4', TO_DATE('28-02-2025', 'DD-MM-YYYY'), 'Bank Transfer', 'Paid', 1799.00);
+INSERT INTO PAYMENTS VALUES (16, 'C6', TO_DATE('03-03-2025', 'DD-MM-YYYY'), 'Credit Card', 'Pending', 1999.00);
+INSERT INTO PAYMENTS VALUES (25, 'C8', TO_DATE('05-03-2025', 'DD-MM-YYYY'), 'Cash', 'Paid', 1399.00);
+INSERT INTO PAYMENTS VALUES (30, 'C10', TO_DATE('08-03-2025', 'DD-MM-YYYY'), 'Bank Transfer', 'Paid', 2199.00);
 --
 SELECT * FROM PAYMENTS;
 
